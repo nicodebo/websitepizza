@@ -1,14 +1,14 @@
-.bg-1 { 
+.bg-1 {
     background-image: url("../images/pizza-show-1.jpg") no-repeat center center;
     /* height: 600px; */
 }
 
-.bg-2 { 
+.bg-2 {
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
 }
 
-.bg-3 { 
+.bg-3 {
     background-color: #ffffff; /* White */
     color: #555555;
 }
@@ -51,7 +51,7 @@ menu {
     background-image: url("../images/pizza-show-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     height: 700px;
     position: relative;
 }
@@ -59,6 +59,22 @@ menu {
 .googlemap, .contact {
     background-color: black;
     color: white;
+}
+
+.googlemap-content {
+  top: -80px;
+  height: 380px !important;
+  width: 100% !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.googlemap iframe {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  height: 200%;
+  width: 200%;
 }
 
 .copyright {
@@ -74,21 +90,6 @@ menu {
     align-items: center;
 }
 
-/* .googlemap iframe {
-    height: 300px;
-    width: 100%;
-    margin-top: -80px;
-} */
-.googlemap iframe {
-    height: 200%;
-    width: 200%;
-}
-
-.googlemap-content {
-    /* height: 300px; */
-    /* width: 100%; */
-    /* margin-top: -80px; */
-}
 
 .copyright {
     padding-top: 40px;
@@ -107,7 +108,7 @@ section:last-child {
 .section-title {
     margin: 0 0 10px 0;
     padding: 0 0 10px 0;
-    
+
     text-transform: uppercase;
     border-bottom: 3px solid orange;
     display: inline-block;
@@ -160,7 +161,7 @@ section:last-child {
     border-radius: 0;
     border: 0;
     transition-property: background-color;
-    transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 } */
 
 /* .card .btn:hover {
