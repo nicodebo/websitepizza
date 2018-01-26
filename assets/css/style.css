@@ -57,6 +57,10 @@
     color: white;
 }
 
+.contact {
+  padding-bottom: 70px;
+}
+
 .googlemap-content {
   top: -80px;
   height: 380px !important;
