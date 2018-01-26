@@ -97,8 +97,8 @@
 }
 
 section {
-margin-top: 100px;
-margin-bottom: 80px;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
 section:last-child {
@@ -154,6 +154,6 @@ section:last-child {
 }
 
 .main-content {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 100px; */
 }
