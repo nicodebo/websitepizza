@@ -26,10 +26,6 @@
     position: abosolute;
 }
 
-menu {
-    /* height: 200px; */
-}
-
 .main-header {
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -108,7 +104,6 @@ section:last-child {
 .section-title {
     margin: 0 0 10px 0;
     padding: 0 0 10px 0;
-
     text-transform: uppercase;
     border-bottom: 3px solid orange;
     display: inline-block;
@@ -154,17 +149,7 @@ section:last-child {
     border-color: gray;
 }
 
-
-/* .card .btn {
-    background-color: rgb(255, 196, 1);
-    color: black;
-    border-radius: 0;
-    border: 0;
-    transition-property: background-color;
-    transition-duration: 0.4s;
-} */
-
-/* .card .btn:hover {
-    background-color: orange;
-    color: black;
-} */
+.main-content {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
