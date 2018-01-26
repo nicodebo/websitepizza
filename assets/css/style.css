@@ -1,0 +1,169 @@
+.bg-1 { 
+    background-image: url("../images/pizza-show-1.jpg") no-repeat center center;
+    /* height: 600px; */
+}
+
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg1{
+    color:#fff;
+    /* text-align: center; */
+    background: url('../images/pizza-show-1.jpg');
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    height: 700px;
+    z-index: 1;
+    position: abosolute;
+}
+
+menu {
+    /* height: 200px; */
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .bg-light{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.featured {
+    background-image: url("../images/pizza-show-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 700px;
+    position: relative;
+}
+
+.googlemap, .contact {
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    background-color: white;
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 300px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+/* .googlemap iframe {
+    height: 300px;
+    width: 100%;
+    margin-top: -80px;
+} */
+.googlemap iframe {
+    height: 200%;
+    width: 200%;
+}
+
+.googlemap-content {
+    /* height: 300px; */
+    /* width: 100%; */
+    /* margin-top: -80px; */
+}
+
+.copyright {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section {
+margin-top: 100px;
+margin-bottom: 80px;
+}
+
+section:last-child {
+    margin-bottom: 160px;
+}
+
+.section-title {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    
+    text-transform: uppercase;
+    border-bottom: 3px solid orange;
+    display: inline-block;
+}
+
+.section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section-header .lead {
+    color: gray;
+}
+
+.card {
+    border: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card-text {
+    text-align: justify;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.message h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+.form-group input, .form-group textarea {
+    background-color: black;
+    border-radius: 0;
+    border-color: gray;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    background-color: black;
+    border-radius: 0;
+    border-color: gray;
+}
+
+
+/* .card .btn {
+    background-color: rgb(255, 196, 1);
+    color: black;
+    border-radius: 0;
+    border: 0;
+    transition-property: background-color;
+    transition-duration: 0.4s; 
+} */
+
+/* .card .btn:hover {
+    background-color: orange;
+    color: black;
+} */
