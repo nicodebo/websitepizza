@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,34 +16,7 @@
     <body>
 
         <!-- main header -->
-        <header class="main-header fixed-top">
-            <!-- menu principal -->
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/images/logo.png" height="49" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                                                                                                              aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#nospizzas">Nos Pizzas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#nossalades">Nos Salades</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <div w3-include-html="views/header.html"></div>
         <!-- end main header -->
 
         <!-- main content -->
@@ -53,7 +27,7 @@
                     <div class="container text-center">
                         <h3>Une bonne pizza</h3>
                         <h3>Pour bien coder</h3>
-                        <button type="button" class="btn btn-warning">Mangez cette pizza</button>
+                        <button type="button" class="btn btn-warning" href="pages/pizza.html">Mangez cette pizza</button>
                     </div>
                 </div>
             </div>
@@ -269,5 +243,8 @@
             </div>
         </footer>
 
+    <script>
+        w3.includeHTML();
+</script
     </body>
 </html>
