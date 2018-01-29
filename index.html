@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +12,17 @@
         <title>Webforce3 Pizza</title>
     </head>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#inc-header').load('includes/header.html');
+            });
+    </script>
     <body>
 
         <!-- main header -->
-        <div w3-include-html="views/header.html"></div>
+        <div id="inc-header"></div>
         <!-- end main header -->
 
         <!-- main content -->
@@ -243,8 +249,5 @@
             </div>
         </footer>
 
-    <script>
-        w3.includeHTML();
-</script
     </body>
 </html>
