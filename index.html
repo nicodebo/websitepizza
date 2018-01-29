@@ -17,6 +17,7 @@
     <script>
         $(document).ready(function(){
             $('#inc-header').load('includes/header.html');
+            $('#inc-footer').load('includes/footer.html');
             });
     </script>
     <body>
@@ -196,58 +197,9 @@
         </div>
         <!-- end main content -->
 
-        <footer class="main-footer">
-            <!-- main footer -->
-            <!-- google map -->
-            <div class="googlemap">
-                <div class="container">
-                    <div
-                     class="googlemap-content">
-                        <iframe
-                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d40496.15573087305!2d3.1346278!3d50.626936!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1516871038733"
-                     frameborder="0"
-                     style="border:0"
-                     allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <!-- formulaire de contact -->
-            <div class="contact" id="contact">
-                <div class="container text-center">
-                    <h1>Alors c'était bon ?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Ipsa quos nulla enim, inventore sed ex cumque velit,
-                    aspernatur culpa neque totam debitis incidunt at saepe
-                    assumenda reprehenderit delectus odit doloribus libero vitae
-                    quam facilis. Animi quam quod hic illum veritatis delectus,
-                    corporis nisi officia amet, voluptate nesciunt dolorum
-                    consectetur quae?</p>
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <input type="text" class="form-control" id="prenom" placeholder="Votre prenom">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <input type="text" class="form-control" id="nom" placeholder="Votre nom">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <input type="email" class="form-control" id="email" placeholder="Votre email">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Votre message" rows="10"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-warning">Send message</button>
-                    </form>
-                </div>
-            </div>
-            <!-- copyright -->
-            <div class="copyright">
-                <div class="container text-center">
-                    &copy; 2018 Web Pizza
-                </div>
-            </div>
-        </footer>
+        <!-- main footer -->
+        <div id="inc-footer"></div>
+        <!-- end main footer -->
 
     </body>
 </html>
